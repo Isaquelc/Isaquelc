@@ -1,0 +1,36 @@
+body {
+  font-family: Helvetica;
+  background: rgb(256, 256, 240);
+  text-align: center;
+}
+
+div {
+  padding: 1% 0 1% 0;
+}
+
+h1 {
+  text-transform: capitalize;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+hr {
+  height: 0.1em;
+  width: 90%;
+  background: rgb(180, 220, 255);
+}
+
+button {
+  color: rgb(0, 0, 0);
+  background-color: rgb(180, 220, 255);
+}
+
+.jumbotron {
+  background-color: rgb(180, 220, 255);
+  padding: 0% 0% 0% 0%;
+}
+
+.btn-lg {
+  max-width: 95%;
+  width: 100%;
+}
