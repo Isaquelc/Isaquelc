@@ -15,12 +15,12 @@ h1 {
 }
 
 hr {
-  height: 0.1em;
+  height: 0.05em;
   width: 90%;
   background: rgb(180, 220, 255);
 }
 
-.btn {
+.blue {
   color: rgb(0, 0, 0);
   background-color: rgb(180, 220, 255);
 }
@@ -41,4 +41,16 @@ hr {
 
 .shown {
   visibility:visible;
+}
+
+#correct {
+  background: rgb(80, 220, 80);
+  margin: auto;
+  width:10em;
+}
+
+#wrong {
+  background: rgb(220, 80, 80);
+  margin: auto;
+  width:15em;
 }

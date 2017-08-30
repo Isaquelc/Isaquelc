@@ -7,17 +7,21 @@
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
-    <h1>Exercícios:</h1>
-    <h3>Resolva a seguinte questão:</h3>
+    <header class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1>Exercícios:</h1>
+        <h3>Resolva a seguinte questão:</h3>
+      </div>
+    </header>
     <h4>10 + x = 23</h4>
     <p>x =
       <input id="answer" type="text" name="Answer" value="">
-      <input id="submit" type="submit" name="Submit" class="btn" value="Checar resposta">
+      <input id="submit" type="submit" name="Submit" class="btn blue" value="Checar resposta">
     </p>
-    <p id="correct" class="hidden">Correto!</p>
-    <p id="wrong" class="hidden">Tente mais uma vez...</p>
+    <p id="correct" class="btn hidden">Correto!</p>
+    <p id="wrong" class="btn hidden">Tente mais uma vez...</p>
     <hr>
-    <button type="button" name="button" class="btn btn-small btn-default" onclick="window.open('maths.html', '_self')">Voltar</button>
+    <button type="button" name="button" class="btn btn-small btn-default blue" onclick="window.open('maths.html', '_self')">Voltar</button>
     <script type="text/javascript" src="assets/js/app.js"></script>
   </body>
 </html>
