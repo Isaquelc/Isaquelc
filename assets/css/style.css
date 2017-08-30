@@ -1,3 +1,15 @@
+#correct {
+  background: rgb(80, 220, 80);
+  margin: auto;
+  width:10em;
+}
+
+#wrong {
+  background: rgb(220, 80, 80);
+  margin: auto;
+  width:15em;
+}
+
 body {
   font-family: Helvetica;
   background: rgb(256, 256, 240);
@@ -41,16 +53,4 @@ hr {
 
 .shown {
   visibility:visible;
-}
-
-#correct {
-  background: rgb(80, 220, 80);
-  margin: auto;
-  width:10em;
-}
-
-#wrong {
-  background: rgb(220, 80, 80);
-  margin: auto;
-  width:15em;
 }
