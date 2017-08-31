@@ -13,10 +13,11 @@
         <h3>Resolva a seguinte questão:</h3>
       </div>
     </header>
-    <h4>10 + x = 23</h4>
+    <h4 id="question"></h4>
     <p>x =
-      <input id="answer" type="text" name="Answer" value="">
+      <input id="answer" type="number" name="Answer" value="">
       <input id="submit" type="submit" name="Submit" class="btn blue" value="Checar resposta">
+      <button type="button" name="button" class="btn blue" onclick="window.open('algebra.html', '_self')">Outra equação</button>
     </p>
     <p id="correct" class="btn hidden">Correto!</p>
     <p id="wrong" class="btn hidden">Tente mais uma vez...</p>
