@@ -42,7 +42,6 @@ function operation() {
   }
 }
 operation();
-var operation_used;
 //create question
 function question_maker() {
   return n1.toString() + " " + operation_used + " x = " + n2.toString();
