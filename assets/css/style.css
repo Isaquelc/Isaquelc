@@ -15,6 +15,9 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 200%;
+}
 hr {
   height: 0.05em;
   width: 90%;
@@ -47,7 +50,9 @@ hr {
 .inline {
   display: inline-block;
 }
-
+.btn {
+  font-size: 100%;
+}
 #correct {
   background: rgb(80, 220, 80);
   margin: auto;
