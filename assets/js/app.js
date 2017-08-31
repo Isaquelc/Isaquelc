@@ -39,21 +39,22 @@ function operation() {
     return "-";
   }
 }
-
+ var operation_used = operation();
+ 
 //create question
 function question_maker() {
-  return n1.toString() + " " + operation() + " x = " + n2.toString();
+  return n1.toString() + " " + operation_used + " x = " + n2.toString();
 }
 
 var question_final = question_maker();
 
 //find out answer
 function answer_giver() {
-  if (operation() === "+") {
-    answer_temporary = n1 - n2;
+  if (operation_used === "+") {
+    answer_temporary = n2 - n1;
     console.log(answer_temporary);
   } else {
-    answer_temporary = n2 - n1;
+    answer_temporary = n1 - n2;
     console.log(answer_temporary);
   }
   return answer_temporary;
